@@ -1,0 +1,21 @@
+@media (max-width: 701px) {
+  .col {
+    flex-direction: column;
+    margin: 130px 10px;
+    box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.2);
+    .container {
+
+    }
+    .flex-container {
+      .text-container {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .btn-primary {
+    padding: 10px 90px;
+  }
+}

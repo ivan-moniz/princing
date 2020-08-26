@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,700&display=swap");
+.btn-primary {
+  padding: 10px 90px;
+  border-radius: 5px;
+  margin: 3px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background: #c0df34;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background: #e5eff5;
+}
+
+ul {
+  color: #e5eff5;
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.col {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 130px 360px;
+  box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.col .container {
+  padding: 1rem 2rem;
+}
+.col .container h2 {
+  color: #2ab2af;
+}
+.col .container h3 {
+  color: #c0df34;
+}
+.col .container p {
+  padding: 0rem 1rem 0rem 0rem;
+  color: #98a6bd;
+}
+.col .flex-container .text-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.col .flex-container .text-container .box-1 {
+  background-color: #2ab2af;
+  padding: 2rem 2rem;
+  color: #fff;
+}
+.col .flex-container .text-container .box-1 span {
+  color: #fff;
+  font-size: 40px;
+  padding-right: 0.5rem;
+}
+.col .flex-container .text-container .box-1 p {
+  color: #e5eff5;
+}
+.col .flex-container .text-container .box-1 .py-1 {
+  padding-bottom: 1rem;
+}
+.col .flex-container .text-container .box-2 {
+  color: #fff;
+  padding: 2rem 2rem;
+  background: #2fc6c4;
+}
+
+footer {
+  text-align: center;
+}
+footer .attribution {
+  color: #2ab2af;
+}
+footer .attribution a {
+  color: #000;
+}
+
+@media (max-width: 701px) {
+  .col {
+    flex-direction: column;
+    margin: 130px 10px;
+    box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .col .flex-container .text-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 375px) {
+  .btn-primary {
+    padding: 10px 90px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
